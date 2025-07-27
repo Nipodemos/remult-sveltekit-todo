@@ -1,0 +1,80 @@
+[
+  {
+    "id": "w40vyr6ywazprf4jolhjwypc",
+    "title": "Tomar café da manhã",
+    "completed": true,
+    "createdAt": "2025-07-25T23:58:33.807Z"
+  },
+  {
+    "id": "icpjsq04x4g3j8oqcvq3jsua",
+    "title": "Escovar os dentes",
+    "completed": false,
+    "createdAt": "2025-07-25T23:58:33.810Z"
+  },
+  {
+    "id": "hig428jb2175ss7vibza5gnc",
+    "title": "Verificar e-mails",
+    "completed": false,
+    "createdAt": "2025-07-25T23:58:33.813Z"
+  },
+  {
+    "id": "tkj7b6yy59549a9tbr7a51zd",
+    "title": "Passear com o cach",
+    "completed": false,
+    "createdAt": "2025-07-25T23:58:33.815Z"
+  },
+  {
+    "id": "adejuhlf9ij97yvoetr2obz9",
+    "title": "Preparar o almoço",
+    "completed": false,
+    "createdAt": "2025-07-25T23:58:33.816Z"
+  },
+  {
+    "id": "lj7j4k4uxh1sdef8m0lmjq48",
+    "title": "Fazer compras no supermercado",
+    "completed": false,
+    "createdAt": "2025-07-25T23:58:33.817Z"
+  },
+  {
+    "id": "xazv2jcmvm7tr70bpbzemfnf",
+    "title": "Ir à academia",
+    "completed": false,
+    "createdAt": "2025-07-25T23:58:33.819Z"
+  },
+  {
+    "id": "w4pyy0458ib4pbvjagnfgus0",
+    "title": "Lavar a louça do jantar",
+    "completed": false,
+    "createdAt": "2025-07-25T23:58:33.821Z"
+  },
+  {
+    "id": "o4wp2o2k7y4vs2at5u6jgty3",
+    "title": "Ler um capítulo de um livro",
+    "completed": false,
+    "createdAt": "2025-07-25T23:58:33.822Z"
+  },
+  {
+    "id": "j0i126v39impji9conwa5yel",
+    "title": "Assistir a um episódio de uma série",
+    "completed": false,
+    "createdAt": "2025-07-25T23:58:33.823Z"
+  },
+  {
+    "id": "srysoghgrchqag1hzc2iwa8j",
+    "title": "Ir pra casa",
+    "completed": false,
+    "createdAt": "2025-07-26T12:26:19.480Z"
+  },
+  {
+    "id": "futhox4mxq26s75m1y5zwgy1",
+    "title": "Jogar jogos",
+    "completed": false,
+    "createdAt": "2025-07-26T12:26:31.125Z"
+  },
+  {
+    "id": "fa5wftlcac9k6rkvz28h3ch4",
+    "title": "oiyuyu",
+    "completed": false,
+    "createdAt": "2025-07-26T13:38:54.398Z"
+  }
+]
