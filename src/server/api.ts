@@ -1,3 +1,4 @@
+
 import { remultApi } from 'remult/remult-sveltekit';
 import { Task } from '../shared/Task';
 import { TasksController } from '../shared/TasksController';
@@ -8,9 +9,20 @@ import type { UserInfo } from 'remult';
 export const api = remultApi({
 	entities: [Task],
 	controllers: [TasksController],
-	dataProvider: DATABASE_URL
-		? createPostgresDataProvider({ connectionString: DATABASE_URL })
-		: undefined,
+
+    	dataProvider: async () => {
+		if (DATABASE_URL) {
+			return createPostgresDataProvider({ 
+                connectionString: DATABASE_URL,
+                configuration: {
+                    ssl: true
+                }
+            });
+		}
+		return undefined; 
+	},
+    // -----------------------------
+
 	getUser: async (event) => {
 		const auth = await event?.locals?.auth();
 		return auth?.user as UserInfo;
