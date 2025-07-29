@@ -13,7 +13,7 @@ export const api = remultApi({
 	controllers: [TasksController],
 
 	// --- LÓGICA DO DATAPROVIDER SIMPLIFICADA ---
-	dataProvider: () => {
+	dataProvider: async () => {
 		// A condição agora é uma só:
 		// SÓ conecte ao Postgres se NÃO estivermos no build E a URL do banco existir.
 		if (!building && DATABASE_URL) {
