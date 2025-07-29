@@ -21,7 +21,9 @@ export const api = remultApi({
 			return createPostgresDataProvider({
 				connectionString: DATABASE_URL,
 				configuration: {
-					ssl: true
+					ssl: {
+					    rejectUnauthorized: false
+				        }
 				}
 			});
 		}
